@@ -1,7 +1,7 @@
 # Links
 
 ## General
-[Medieval Music & Arts Foundation](https://google.co.uk)
+[Medieval Music & Arts Foundation](https://google.com)
 
 [Medieval & Renaissance Instruments](https://google.co.uk)
 

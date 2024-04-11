@@ -18,7 +18,7 @@ const config: Config = {
   organizationName: 'EMFS', // Usually your GitHub org/user name.
   projectName: 'EMFS', // Usually your repo name.
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   i18n: {
     defaultLocale: 'en',

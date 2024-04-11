@@ -6,6 +6,7 @@ const config: Config = {
   title: 'Early Music Forum of Scotland',
   tagline: 'EMFS',
   favicon: 'img/favicon.ico',
+  staticDirectories: ['public', 'static'],
 
   // Set the production url of your site here
   url: 'https://cloud-awesome.github.io',
@@ -57,17 +58,16 @@ const config: Config = {
       items: [
         {to: '/', label: 'Home', position: 'left'},
         {to: '/about', label: 'About', position: 'left'},
-        {to: 'mailto:chairperson@emfscotland.org.uk', label: 'Contact', position: 'left'},
         {to: '/blog', label: 'News & Events', position: 'left'},
         {to: '/other', label: 'Other', position: 'left'},
         {to: '/members', label: 'Members', position: 'left'},
 
-        {
-          type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
-          position: 'right',
-          label: 'Tutorial',
-        },
+        {to: 'mailto:chairperson@emfscotland.org.uk?subject=Join Mailing List&body=Hello, I\'d like to join the EMFS mailing list please!',
+          label: 'Join Our Mailing List!',
+          position: 'right'},
+        {to: 'mailto:chairperson@emfscotland.org.uk?subject=Website contact',
+          label: 'Contact',
+          position: 'right'},
       ],
     },
     footer: {

@@ -10,7 +10,7 @@ export default function HomepageFeatures(): JSX.Element {
               <div className={clsx('col col--4')}>
                   <div className="text--center">
                       <img alt="" className={styles.featureSvg} role="img"
-                           src='' />
+                           src={require('@site/static/img/ladies_dancing.jpg').default}/>
                   </div>
                   <div className="text--center padding-horiz--md">
                       <Heading as="h3">Who is Early Music Forum of Scotland?</Heading>
@@ -19,12 +19,13 @@ export default function HomepageFeatures(): JSX.Element {
                           renaissance and baroque periods.</p>
                   </div>
                   <div className="text--center">
-                      <a>Read more</a>
+                      <a className="btn btn-dark" href="https://google.co.uk">Read more</a>
                   </div>
               </div>
               <div className={clsx('col col--4')}>
                   <div className="text--center">
-                      <img alt="" className={styles.featureSvg} role="img"/>
+                      <img alt="" className={styles.featureSvg} role="img"
+                           src={require('@site/static/img/emfs_choir.jpg').default}/>
                   </div>
                   <div className="text--center padding-horiz--md">
                       <Heading as="h3">The EMFS choral programme</Heading>
@@ -33,7 +34,7 @@ export default function HomepageFeatures(): JSX.Element {
                           sing Early Music on a regular basis.</p>
                   </div>
                   <div className="text--center">
-                      <a>Read more</a>
+                      <a className="btn btn-dark" href="https://google.co.uk">Read more</a>
                   </div>
               </div>
           </div>

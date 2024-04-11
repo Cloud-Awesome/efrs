@@ -1,7 +1,6 @@
 ---
-title: Recorder Workshop with Palisander Recorder Quartet
 authors: arthur
-tags: [hola, docusaurus]
+tags: [workshop, recorder]
 ---
 
 # Recorder Workshop with Palisander Recorder Quartet

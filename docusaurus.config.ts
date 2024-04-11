@@ -8,15 +8,15 @@ const config: Config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://cloud-awesome.github.io/efrs-sandbox/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/efrs-sandbox/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'EMFS', // Usually your GitHub org/user name.
-  projectName: 'EMFS', // Usually your repo name.
+  organizationName: 'cloud-awesome', // Usually your GitHub org/user name.
+  projectName: 'efrs-sandbox', // Usually your repo name.
 
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',

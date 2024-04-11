@@ -18,8 +18,8 @@ export default function HomepageFeatures(): JSX.Element {
                           listeners and instrument makers from around Scotland with an interest in the medieval,
                           renaissance and baroque periods.</p>
                   </div>
-                  <div className="text--center">
-                      <a className="btn btn-dark" href="https://google.co.uk">Read more</a>
+                  <div className={styles.readMoreButton}>
+                      <a href="https://google.co.uk">Read more</a>
                   </div>
               </div>
               <div className={clsx('col col--4')}>
@@ -33,7 +33,7 @@ export default function HomepageFeatures(): JSX.Element {
                           was established in 2016 in response to demand from singers for opportunities to
                           sing Early Music on a regular basis.</p>
                   </div>
-                  <div className="text--center">
+                  <div className={styles.readMoreButton}>
                       <a className="btn btn-dark" href="https://google.co.uk">Read more</a>
                   </div>
               </div>

@@ -9,3 +9,9 @@
   height: 250px;
   width: 350px;
 }
+
+.readMoreButton {
+  padding-bottom: 1rem;
+  font-weight: bolder;
+  text-align: center;
+}
